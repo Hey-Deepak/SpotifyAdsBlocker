@@ -10,21 +10,34 @@
 
     <LinearLayout
             android:layout_weight="1"
+            android:orientation="vertical"
             android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:padding="8dp"
-            android:layout_margin="8dp">
+            android:layout_margin="8dp" android:textAlignment="gravity">
         <Switch
-                android:text="Switch"
+                android:text="Switch1"
+                android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/switch1"
-                android:layout_weight="1"
-        />
+                tools:text="Switch1"
+                android:textAlignment="gravity"/>
+        <CheckBox android:id="@+id/facts"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Facts"/>
+
+        <CheckBox android:id="@+id/music"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="music"/>
+
     </LinearLayout>
 
     <LinearLayout
             android:layout_weight="1"
+            android:orientation="vertical"
             android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:layout_margin="8dp"
@@ -33,8 +46,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/switch2"
-                android:layout_weight="1"
-                tools:text="Switch"/>
+                tools:text="Switch2"
+                android:layout_gravity="center_horizontal"
+                android:text="Switch2"/>
+
+
     </LinearLayout>
 
 </LinearLayout>
