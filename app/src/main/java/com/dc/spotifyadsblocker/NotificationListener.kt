@@ -22,8 +22,6 @@ class NotificationListener : NotificationListenerService() {
         val extras = sbn!!.notification.extras
         val title = extras.getString("android.title")
         val text = extras.getCharSequence("android.text").toString()
-
-        val x=5
     }
 
     override fun onNotificationRemoved(sbn: StatusBarNotification?) {
