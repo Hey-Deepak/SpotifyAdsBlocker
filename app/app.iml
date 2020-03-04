@@ -9,7 +9,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="E:\Projects\Android\SpotifyAdsBlocker\app\src\debug\kotlin;E:\Projects\Android\SpotifyAdsBlocker\app\src\debug\java;E:\Projects\Android\SpotifyAdsBlocker\app\src\release\kotlin;E:\Projects\Android\SpotifyAdsBlocker\app\src\release\java;E:\Projects\Android\SpotifyAdsBlocker\app\src\debugAndroidTest\kotlin;E:\Projects\Android\SpotifyAdsBlocker\app\src\debugUnitTest\kotlin;E:\Projects\Android\SpotifyAdsBlocker\app\src\releaseUnitTest\kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
